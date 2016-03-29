@@ -32,6 +32,8 @@
 		4752BF6E1CA140DD00F540CB /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4752BF5C1CA140DD00F540CB /* UIImageView+HighlightedWebCache.m */; };
 		4752BF6F1CA140DD00F540CB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4752BF5E1CA140DD00F540CB /* UIImageView+WebCache.m */; };
 		4752BF701CA140DD00F540CB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4752BF601CA140DD00F540CB /* UIView+WebCacheOperation.m */; };
+		47FE56591CA4EB7A00BF72DD /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE56581CA4EB7A00BF72DD /* CaculatorMaker.m */; };
+		47FE565C1CA4EBFA00BF72DD /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 47FE565B1CA4EBFA00BF72DD /* NSObject+Caculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,10 @@
 		4752BF5E1CA140DD00F540CB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		4752BF5F1CA140DD00F540CB /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		4752BF601CA140DD00F540CB /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		47FE56571CA4EB7A00BF72DD /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		47FE56581CA4EB7A00BF72DD /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
+		47FE565A1CA4EBFA00BF72DD /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		47FE565B1CA4EBFA00BF72DD /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,11 +159,11 @@
 		4752BF081CA13C5F00F540CB /* BSRollView */ = {
 			isa = PBXGroup;
 			children = (
+				47FE565D1CA50E3100BF72DD /* 链式语法 */,
+				47FE56561CA4EB1F00BF72DD /* BSRollView */,
 				4752BF3F1CA140DC00F540CB /* SDWebImage */,
 				4752BF0C1CA13C5F00F540CB /* AppDelegate.h */,
 				4752BF0D1CA13C5F00F540CB /* AppDelegate.m */,
-				4752BF3C1CA13C9300F540CB /* BSRollView.h */,
-				4752BF3D1CA13C9300F540CB /* BSRollView.m */,
 				4752BF0F1CA13C5F00F540CB /* ViewController.h */,
 				4752BF101CA13C5F00F540CB /* ViewController.m */,
 				4752BF121CA13C5F00F540CB /* Main.storyboard */,
@@ -233,6 +239,26 @@
 				4752BF601CA140DD00F540CB /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		47FE56561CA4EB1F00BF72DD /* BSRollView */ = {
+			isa = PBXGroup;
+			children = (
+				4752BF3C1CA13C9300F540CB /* BSRollView.h */,
+				4752BF3D1CA13C9300F540CB /* BSRollView.m */,
+			);
+			name = BSRollView;
+			sourceTree = "<group>";
+		};
+		47FE565D1CA50E3100BF72DD /* 链式语法 */ = {
+			isa = PBXGroup;
+			children = (
+				47FE56571CA4EB7A00BF72DD /* CaculatorMaker.h */,
+				47FE56581CA4EB7A00BF72DD /* CaculatorMaker.m */,
+				47FE565A1CA4EBFA00BF72DD /* NSObject+Caculator.h */,
+				47FE565B1CA4EBFA00BF72DD /* NSObject+Caculator.m */,
+			);
+			name = "链式语法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,8 +399,10 @@
 				4752BF6B1CA140DD00F540CB /* UIImage+GIF.m in Sources */,
 				4752BF691CA140DD00F540CB /* SDWebImagePrefetcher.m in Sources */,
 				4752BF111CA13C5F00F540CB /* ViewController.m in Sources */,
+				47FE565C1CA4EBFA00BF72DD /* NSObject+Caculator.m in Sources */,
 				4752BF0E1CA13C5F00F540CB /* AppDelegate.m in Sources */,
 				4752BF6D1CA140DD00F540CB /* UIImage+WebP.m in Sources */,
+				47FE56591CA4EB7A00BF72DD /* CaculatorMaker.m in Sources */,
 				4752BF6F1CA140DD00F540CB /* UIImageView+WebCache.m in Sources */,
 				4752BF661CA140DD00F540CB /* SDWebImageDownloader.m in Sources */,
 				4752BF701CA140DD00F540CB /* UIView+WebCacheOperation.m in Sources */,
@@ -608,6 +636,7 @@
 				4752BF351CA13C5F00F540CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4752BF361CA13C5F00F540CB /* Build configuration list for PBXNativeTarget "BSRollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -616,6 +645,7 @@
 				4752BF381CA13C5F00F540CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4752BF391CA13C5F00F540CB /* Build configuration list for PBXNativeTarget "BSRollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +654,7 @@
 				4752BF3B1CA13C5F00F540CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
